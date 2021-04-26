@@ -12,6 +12,8 @@ def solve(bo):
             bo[row][col] = 1
             if solve(bo):
                 return True
-            
+
             bo[row][col] = 0
     return False
+
+def load
